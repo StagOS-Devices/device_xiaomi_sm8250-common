@@ -6,3 +6,4 @@ userdebug_or_eng(`
 dontaudit kernel self:qipcrtr_socket create;
 allow kernel mnt_vendor_file:dir { search };
 allow kernel system_data_file:file { read };
+allow kernel self:capability kill;
