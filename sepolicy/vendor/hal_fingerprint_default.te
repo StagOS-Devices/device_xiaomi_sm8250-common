@@ -36,3 +36,5 @@ binder_call(hal_fingerprint_default, vendor_hal_perf_default)
 dontaudit hal_fingerprint_default default_prop:file { read };
 
 add_hwservice(hal_fingerprint_default, hal_fingerprint_hwservice_xiaomi)
+
+binder_call(hal_fingerprint_default, vendor_hal_perf_default)
