@@ -85,11 +85,6 @@ ro.config.dha_tunnable=1
 persist.service.lgospd.enable=0
 persist.service.pcsync.enable=0
 
-# ZRAM
-ro.zram.mark_idle_delay_mins=60
-ro.zram.first_wb_delay_mins=1440
-ro.zram.periodic_wb_delay_hours=24 
-
 # Notch Overlay
 ro.miui.notch=1
 
@@ -111,3 +106,8 @@ ro.config.avoid_gfx_accel=true
 #Diable Blur 
 ro.surface_flinger.supports_background_blur=0	
 ro.sf.blurs_are_expensive=0
+
+# ZRAM
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=1440
+ro.zram.periodic_wb_delay_hours=24 
