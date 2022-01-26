@@ -349,10 +349,6 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_vp8enc \
     libcodec2_soft_xaacdec
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
