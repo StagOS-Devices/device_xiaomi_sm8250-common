@@ -100,6 +100,10 @@ PRODUCT_PACKAGES += \
     otapreopt_script
 endif
 
+# Aperture Cam
+PRODUCT_PACKAGES += \
+    ApertureOverlay \
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
